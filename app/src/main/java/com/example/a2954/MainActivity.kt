@@ -39,6 +39,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun testBtn(view: View) {
+        //Test#1 getAppCheckToken(false) and getAppCheckToken(true)   //result callApiExample1 != callApiExample2
+        //Test#2 getAppCheckToken(true) and getAppCheckToken(true)    //result callApiExample1 == callApiExample2
+
         callApiExample1()
         callApiExample2()
     }
